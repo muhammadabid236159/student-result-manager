@@ -1,0 +1,103 @@
+   body {
+    background: #eef2f7;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Page Title */
+h2 {
+    font-weight: 700;
+    color: #1f2d3d;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 18px !important;
+    border: none;
+}
+
+/* FORM CARD */
+.card input {
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.card input:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 0 0.2rem rgba(78,115,223,0.2);
+}
+
+/* BUTTON */
+.btn-primary {
+    background: linear-gradient(135deg, #4e73df, #224abe);
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* STATS CARDS */
+.stat-card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.stat-card h6 {
+    color: #6c757d;
+    margin-bottom: 8px;
+}
+
+.stat-card h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4e73df;
+}
+
+/* TABLE */
+table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+thead {
+    background: #4e73df;
+    color: white;
+}
+
+table tbody tr {
+    transition: 0.3s;
+}
+
+table tbody tr:hover {
+    background: #f1f5ff;
+}
+
+/* SEARCH BOX */
+.search-box {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 250px;
+}
+
+/* BADGES */
+.badge {
+    padding: 8px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+}
